@@ -5,6 +5,10 @@ import { Home, Layout, NoPage, Jobs, Other } from "./pages";
 function App() {
   return (
     <BrowserRouter>
+      <head>
+        <title>Chriss Quartz - Portfolio</title>
+      </head>
+
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

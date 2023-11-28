@@ -3,10 +3,6 @@ import { Languages, Databases } from "../components";
 const Home = () => {
   return (
     <>
-      <head>
-        <title>Chriss Quartz - Portfolio</title>
-      </head>
-
       <div className="App">
         <main>
           <div style={{ marginLeft: "50px" }}>
