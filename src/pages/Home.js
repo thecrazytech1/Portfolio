@@ -4,17 +4,10 @@ const Home = () => {
   return (
     <>
       <head>
-        <script
-          type="text/javascript"
-          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-        ></script>
+        <title>Test</title>
       </head>
 
       <div className="App">
-        <div data-netlify-identity-menu></div>
-
-        <div data-netlify-identity-button>Login with Netlify Identity</div>
-        
         <main>
           <div style={{ marginLeft: "50px" }}>
             <h1>Hello, there 👋</h1>
